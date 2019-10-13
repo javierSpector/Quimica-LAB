@@ -913,6 +913,96 @@ Transform:
   m_Father: {fileID: 351611166}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &512305280
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5006512736169943036}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 2bc0e10472fc5234ca65819654ae34dc,
+        type: 3}
+      propertyPath: m_Name
+      value: Columnas nuevo uv
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2bc0e10472fc5234ca65819654ae34dc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2bc0e10472fc5234ca65819654ae34dc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2bc0e10472fc5234ca65819654ae34dc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2bc0e10472fc5234ca65819654ae34dc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2bc0e10472fc5234ca65819654ae34dc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2bc0e10472fc5234ca65819654ae34dc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2bc0e10472fc5234ca65819654ae34dc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2bc0e10472fc5234ca65819654ae34dc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2bc0e10472fc5234ca65819654ae34dc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2bc0e10472fc5234ca65819654ae34dc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2bc0e10472fc5234ca65819654ae34dc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2bc0e10472fc5234ca65819654ae34dc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 2bc0e10472fc5234ca65819654ae34dc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a33b636e15a0be64c841680628ffe5ce, type: 2}
+    - target: {fileID: -1504981713932161579, guid: 2bc0e10472fc5234ca65819654ae34dc,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2bc0e10472fc5234ca65819654ae34dc, type: 3}
+--- !u!4 &512305281 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 2bc0e10472fc5234ca65819654ae34dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 512305280}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &533533505
 GameObject:
   m_ObjectHideFlags: 0
@@ -11153,6 +11243,7 @@ Transform:
   - {fileID: 4653178605898384939}
   - {fileID: 535152267536139389}
   - {fileID: 711037018642879891}
+  - {fileID: 512305281}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13508,7 +13599,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!33 &8573141871637957944
 MeshFilter:
   m_ObjectHideFlags: 0
